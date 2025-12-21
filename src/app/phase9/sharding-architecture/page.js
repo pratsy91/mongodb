@@ -68,7 +68,7 @@ export default function ShardingArchitecturePage() {
 
                 <div className="space-y-4 text-gray-200">
                   <p className="text-lg">
-                    <strong>Sharding</strong> is MongoDB's approach to
+                    <strong>Sharding</strong> is MongoDB&apos;s approach to
                     horizontal scaling, distributing data across multiple
                     servers (shards).
                   </p>

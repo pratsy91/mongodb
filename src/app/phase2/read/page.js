@@ -1311,7 +1311,7 @@ await mongoose.disconnect();`}</code>
                 <span className="text-green-400 mr-2">✓</span>
                 <span>
                   <strong>Use lean() in Mongoose:</strong> Faster queries when
-                  you don't need Mongoose methods
+                  you don&apos;t need Mongoose methods
                 </span>
               </li>
               <li className="flex items-start">

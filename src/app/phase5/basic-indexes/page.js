@@ -57,9 +57,10 @@ export default function BasicIndexesPage() {
             <div className="space-y-4 text-gray-200">
               <p className="text-lg">
                 <strong>Indexes</strong> are special data structures that store
-                a small portion of the collection's data in an easy-to-traverse
-                form. They dramatically improve query performance by reducing
-                the number of documents MongoDB needs to examine.
+                a small portion of the collection&apos;s data in an
+                easy-to-traverse form. They dramatically improve query
+                performance by reducing the number of documents MongoDB needs to
+                examine.
               </p>
 
               <h3 className="text-2xl font-semibold text-purple-300 mt-6">

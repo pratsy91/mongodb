@@ -1003,8 +1003,8 @@ await doc.save();`}</code>
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
                 <span>
-                  <strong>Mark Mixed types as modified:</strong> MongoDB doesn't
-                  auto-detect changes
+                  <strong>Mark Mixed types as modified:</strong> MongoDB
+                  doesn&apos;t auto-detect changes
                 </span>
               </li>
               <li className="flex items-start">

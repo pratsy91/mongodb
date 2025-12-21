@@ -1969,7 +1969,7 @@ await mongoose.disconnect();`}</code>
                 <span className="text-green-400 mr-2">✓</span>
                 <span>
                   <strong>Embedded documents:</strong> Use nested objects for
-                  related data that's queried together
+                  related data that&apos;s queried together
                 </span>
               </li>
               <li className="flex items-start">

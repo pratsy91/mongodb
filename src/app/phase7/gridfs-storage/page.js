@@ -56,9 +56,9 @@ export default function GridFSStoragePage() {
 
             <div className="space-y-4 text-gray-200">
               <p className="text-lg">
-                <strong>GridFS</strong> is MongoDB's specification for storing
-                and retrieving files larger than the 16MB BSON document size
-                limit.
+                <strong>GridFS</strong> is MongoDB&apos;s specification for
+                storing and retrieving files larger than the 16MB BSON document
+                size limit.
               </p>
 
               <h3 className="text-2xl font-semibold text-purple-300 mt-6">

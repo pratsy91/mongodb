@@ -1169,8 +1169,8 @@ await setupRoles();`}</code>
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
                 <span>
-                  <strong>Separate app and admin users:</strong> Don't use admin
-                  for applications
+                  <strong>Separate app and admin users:</strong> Don&apos;t use
+                  admin for applications
                 </span>
               </li>
               <li className="flex items-start">

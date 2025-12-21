@@ -1032,8 +1032,8 @@ await mongoose.disconnect();`}</code>
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
                 <span>
-                  <strong>Use $bucketAuto:</strong> When you don't know data
-                  distribution in advance
+                  <strong>Use $bucketAuto:</strong> When you don&apos;t know
+                  data distribution in advance
                 </span>
               </li>
               <li className="flex items-start">

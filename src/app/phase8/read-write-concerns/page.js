@@ -331,15 +331,15 @@ await mongoose.disconnect();`}</code>
                       <strong>w: 1 (default):</strong> Acknowledge from primary
                     </li>
                     <li>
-                      <strong>w: "majority":</strong> Acknowledge from majority
-                      of members
+                      <strong>w: &quot;majority&quot;:</strong> Acknowledge from
+                      majority of members
                     </li>
                     <li>
                       <strong>w: N:</strong> Acknowledge from N members
                     </li>
                     <li>
-                      <strong>w: "tag":</strong> Acknowledge from members with
-                      tag
+                      <strong>w: &quot;tag&quot;:</strong> Acknowledge from
+                      members with tag
                     </li>
                   </ul>
 

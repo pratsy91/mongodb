@@ -941,8 +941,8 @@ await mongoose.disconnect();`}</code>
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
                 <span>
-                  <strong>$size doesn't support ranges:</strong> Use $expr with
-                  $size for range queries
+                  <strong>$size doesn&apos;t support ranges:</strong> Use $expr
+                  with $size for range queries
                 </span>
               </li>
               <li className="flex items-start">

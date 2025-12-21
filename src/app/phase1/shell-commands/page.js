@@ -61,7 +61,7 @@ export default function ShellCommandsPage() {
               </h3>
               <p className="text-lg">
                 The MongoDB Shell (mongosh) is an interactive JavaScript
-                interface to MongoDB. It's used to query and update data,
+                interface to MongoDB. It&apos;s used to query and update data,
                 perform administrative operations, and interact with MongoDB
                 instances.
               </p>
@@ -97,10 +97,14 @@ export default function ShellCommandsPage() {
               </h3>
               <div className="bg-black/30 p-4 rounded-lg font-mono text-sm space-y-2">
                 <div>mongosh # Connect to localhost:27017</div>
-                <div>mongosh "mongodb://localhost:27017" # Explicit URI</div>
+                <div>
+                  mongosh &quot;mongodb://localhost:27017&quot; # Explicit URI
+                </div>
                 <div>mongosh --host localhost --port 27017 # With flags</div>
                 <div>mongosh --username user --password pass # With auth</div>
-                <div>mongosh "mongodb+srv://cluster.mongodb.net" # Atlas</div>
+                <div>
+                  mongosh &quot;mongodb+srv://cluster.mongodb.net&quot; # Atlas
+                </div>
               </div>
             </div>
           </section>

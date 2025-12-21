@@ -921,7 +921,7 @@ query.setUpdate({ $inc: { views: 1 } });`}</code>
                 <span className="text-green-400 mr-2">✓</span>
                 <span>
                   <strong>Use lean() for read-only:</strong> Faster performance
-                  for data you don't modify
+                  for data you don&apos;t modify
                 </span>
               </li>
               <li className="flex items-start">

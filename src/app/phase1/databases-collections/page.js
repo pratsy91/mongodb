@@ -102,8 +102,8 @@ export default function DatabasesCollectionsPage() {
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>Cannot be empty</li>
                 <li>
-                  Cannot contain spaces, ., ", /, \\, *, &lt;, &gt;, :, |, ?, $,
-                  null character
+                  Cannot contain spaces, ., &quot;, /, \\, *, &lt;, &gt;, :, |,
+                  ?, $, null character
                 </li>
                 <li>Database names are case-sensitive</li>
                 <li>Maximum 64 bytes</li>
@@ -116,7 +116,7 @@ export default function DatabasesCollectionsPage() {
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>Cannot be empty</li>
                 <li>Cannot contain null character</li>
-                <li>Cannot start with "system." (reserved prefix)</li>
+                <li>Cannot start with &quot;system.&quot; (reserved prefix)</li>
                 <li>Cannot contain $ (reserved for special collections)</li>
                 <li>Maximum length: 120 bytes</li>
               </ul>

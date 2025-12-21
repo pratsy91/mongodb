@@ -76,8 +76,8 @@ export default function TransactionsStreamsPage() {
                       transaction
                     </li>
                     <li>
-                      <strong>Isolation:</strong> Concurrent transactions don't
-                      interfere
+                      <strong>Isolation:</strong> Concurrent transactions
+                      don&apos;t interfere
                     </li>
                     <li>
                       <strong>Durability:</strong> Committed changes are
@@ -931,14 +931,15 @@ await client.close();`}</code>
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
                 <span>
-                  <strong>Read concern:</strong> Use "snapshot" for consistent
-                  reads
+                  <strong>Read concern:</strong> Use &quot;snapshot&quot; for
+                  consistent reads
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
                 <span>
-                  <strong>Write concern:</strong> Use "majority" for durability
+                  <strong>Write concern:</strong> Use &quot;majority&quot; for
+                  durability
                 </span>
               </li>
               <li className="flex items-start">
@@ -958,8 +959,8 @@ await client.close();`}</code>
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
                 <span>
-                  <strong>Full document:</strong> Use "updateLookup" only when
-                  needed
+                  <strong>Full document:</strong> Use &quot;updateLookup&quot;
+                  only when needed
                 </span>
               </li>
               <li className="flex items-start">

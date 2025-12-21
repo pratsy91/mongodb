@@ -81,7 +81,7 @@ export default function ReplicaSetsPage() {
                       <strong>Primary:</strong> Receives all write operations
                     </li>
                     <li>
-                      <strong>Secondary:</strong> Replicate primary's data
+                      <strong>Secondary:</strong> Replicate primary&apos;s data
                     </li>
                     <li>
                       <strong>Arbiter:</strong> Participates in elections only
@@ -681,7 +681,7 @@ db.adminCommand({ getLog: "global" }).log.forEach(log => {
                     <li>Un-replicated operations are rolled back</li>
                     <li>Rolled back operations saved to rollback files</li>
                     <li>Manual intervention may be required</li>
-                    <li>Use write concern "majority" to prevent</li>
+                    <li>Use write concern &quot;majority&quot; to prevent</li>
                   </ul>
                 </div>
               </section>

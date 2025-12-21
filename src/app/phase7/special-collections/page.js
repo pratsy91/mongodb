@@ -875,7 +875,8 @@ await client.close();`}</code>
                   </h3>
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li>
-                      <strong>locale:</strong> Language (e.g., "en", "fr", "es")
+                      <strong>locale:</strong> Language (e.g., &quot;en&quot;,
+                      &quot;fr&quot;, &quot;es&quot;)
                     </li>
                     <li>
                       <strong>strength:</strong> Comparison level (1-5)

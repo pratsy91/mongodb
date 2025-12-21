@@ -84,7 +84,7 @@ export default function ShardKeyStrategiesPage() {
                       too often
                     </li>
                     <li>
-                      <strong>Non-Monotonic:</strong> Values don't always
+                      <strong>Non-Monotonic:</strong> Values don&apos;t always
                       increase (or use hashed)
                     </li>
                     <li>

@@ -433,7 +433,7 @@ export default function CheatSheetPage() {
                       Q: What is BSON and how is it different from JSON?
                     </h3>
                     <p className="text-gray-200 text-sm">
-                      <strong>A:</strong> BSON (Binary JSON) is MongoDB's
+                      <strong>A:</strong> BSON (Binary JSON) is MongoDB&apos;s
                       binary-encoded serialization format. Differences: BSON
                       supports additional data types (Date, ObjectId, Binary,
                       etc.), is more efficient for parsing, includes length
@@ -497,11 +497,11 @@ export default function CheatSheetPage() {
                     <p className="text-gray-200 text-sm">
                       <strong>A:</strong> $lookup performs a left outer join
                       between collections. It matches documents from the input
-                      collection with documents from the "joined" collection.
-                      Use it when you need to combine data from multiple
-                      collections in aggregation pipelines. Similar to SQL LEFT
-                      OUTER JOIN. Can join on equality or use $expr for complex
-                      conditions.
+                      collection with documents from the &quot;joined&quot;
+                      collection. Use it when you need to combine data from
+                      multiple collections in aggregation pipelines. Similar to
+                      SQL LEFT OUTER JOIN. Can join on equality or use $expr for
+                      complex conditions.
                     </p>
                   </div>
                   <div className="bg-black/30 p-4 rounded-lg">
@@ -588,7 +588,7 @@ export default function CheatSheetPage() {
                       index. MongoDB can return results using only the index
                       without accessing documents. This is extremely fast. Use
                       explain() to check if query is covered (look for
-                      "indexOnly: true").
+                      &quot;indexOnly: true&quot;).
                     </p>
                   </div>
                 </div>
@@ -651,8 +651,8 @@ export default function CheatSheetPage() {
                       supports common query patterns (targeted queries), low
                       frequency of changes. Bad shard key: Low cardinality,
                       monotonically increasing (like timestamp), causes
-                      hotspots, doesn't support queries. Shard key cannot be
-                      changed after sharding.
+                      hotspots, doesn&apos;t support queries. Shard key cannot
+                      be changed after sharding.
                     </p>
                   </div>
                 </div>
@@ -681,16 +681,17 @@ export default function CheatSheetPage() {
                   <div className="bg-black/30 p-4 rounded-lg">
                     <h3 className="text-lg font-semibold text-pink-300 mb-2">
                       Q: What is the difference between
-                      explain("executionStats") and
-                      explain("allPlansExecution")?
+                      explain(&quot;executionStats&quot;) and
+                      explain(&quot;allPlansExecution&quot;)?
                     </h3>
                     <p className="text-gray-200 text-sm">
-                      <strong>A:</strong> "executionStats" shows statistics for
-                      the winning plan (execution time, documents examined, keys
-                      examined). "allPlansExecution" shows stats for all
-                      candidate plans, useful for understanding why a specific
-                      plan was chosen. "queryPlanner" shows plan without
-                      execution. Use executionStats for performance analysis.
+                      <strong>A:</strong> &quot;executionStats&quot; shows
+                      statistics for the winning plan (execution time, documents
+                      examined, keys examined). &quot;allPlansExecution&quot;
+                      shows stats for all candidate plans, useful for
+                      understanding why a specific plan was chosen.
+                      &quot;queryPlanner&quot; shows plan without execution. Use
+                      executionStats for performance analysis.
                     </p>
                   </div>
                   <div className="bg-black/30 p-4 rounded-lg">
@@ -700,10 +701,11 @@ export default function CheatSheetPage() {
                     <p className="text-gray-200 text-sm">
                       <strong>A:</strong> Write concern determines
                       acknowledgment requirements: w: 0 (fire and forget), w: 1
-                      (primary only, default), w: "majority" (majority of
-                      nodes), w: N (N nodes), w: "tag" (tagged replica set). j:
-                      true requires journal commit. wtimeout: timeout in ms.
-                      Higher write concern = more durability but slower writes.
+                      (primary only, default), w: &quot;majority&quot; (majority
+                      of nodes), w: N (N nodes), w: &quot;tag&quot; (tagged
+                      replica set). j: true requires journal commit. wtimeout:
+                      timeout in ms. Higher write concern = more durability but
+                      slower writes.
                     </p>
                   </div>
                 </div>
@@ -1180,7 +1182,8 @@ await collection.insertMany(documents, { ordered: false });`}</code>
                     <ul className="text-gray-200 text-sm space-y-2 list-disc list-inside">
                       <li>Lower write concern (w: 1) for better performance</li>
                       <li>
-                        Use w: "majority" only when durability is critical
+                        Use w: &quot;majority&quot; only when durability is
+                        critical
                       </li>
                       <li>
                         Set appropriate wtimeout to avoid hanging operations
@@ -1321,9 +1324,9 @@ db.system.profile.find({
                       BSON
                     </h3>
                     <p className="text-gray-200 text-sm">
-                      Binary JSON. MongoDB's data format. Supports more types
-                      than JSON (Date, ObjectId, Binary, etc.). More efficient
-                      for parsing and storage.
+                      Binary JSON. MongoDB&apos;s data format. Supports more
+                      types than JSON (Date, ObjectId, Binary, etc.). More
+                      efficient for parsing and storage.
                     </p>
                   </div>
                   <div className="bg-black/30 p-4 rounded-lg">
@@ -1676,7 +1679,8 @@ db.system.profile.find({
                     <ul className="text-gray-200 text-sm space-y-2 list-disc list-inside">
                       <li>Use connection pooling (default in drivers)</li>
                       <li>
-                        Reuse connections, don't create new ones per request
+                        Reuse connections, don&apos;t create new ones per
+                        request
                       </li>
                       <li>Set appropriate connection pool size</li>
                       <li>Handle connection failures gracefully</li>
