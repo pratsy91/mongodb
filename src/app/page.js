@@ -617,17 +617,81 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Phase 14 */}
+          <div className="bg-white/10 backdrop-blur-lg rounded-xl p-8 hover:bg-white/15 transition-all">
+            <h2 className="text-3xl font-bold mb-4 text-teal-300">
+              Phase 14: Complete Query Collection
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <Link
+                href="/phase14/simple-queries"
+                className="bg-gradient-to-r from-teal-600 to-teal-700 p-6 rounded-lg hover:from-teal-500 hover:to-teal-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">
+                  1. Simple to Intermediate Queries
+                </h3>
+                <p className="text-sm text-gray-200">
+                  Basic find queries, comparison operators, logical operators,
+                  array queries, nested documents, text search, count and
+                  distinct - Complete coverage with MongoDB and Mongoose
+                  examples
+                </p>
+              </Link>
+              <Link
+                href="/phase14/intermediate-queries"
+                className="bg-gradient-to-r from-blue-600 to-blue-700 p-6 rounded-lg hover:from-blue-500 hover:to-blue-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">
+                  2. Intermediate Queries
+                </h3>
+                <p className="text-sm text-gray-200">
+                  Aggregation pipelines, lookup joins, grouping operations,
+                  facet queries, bucket grouping - Data transformation and
+                  analytics queries
+                </p>
+              </Link>
+              <Link
+                href="/phase14/advanced-queries"
+                className="bg-gradient-to-r from-purple-600 to-purple-700 p-6 rounded-lg hover:from-purple-500 hover:to-purple-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">
+                  3. Advanced Queries
+                </h3>
+                <p className="text-sm text-gray-200">
+                  Graph lookup, complex multi-stage aggregations, window
+                  functions, transactions, union/merge operations, performance
+                  optimization queries
+                </p>
+              </Link>
+              <Link
+                href="/phase14/expert-queries"
+                className="bg-gradient-to-r from-indigo-600 to-indigo-700 p-6 rounded-lg hover:from-indigo-500 hover:to-indigo-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">
+                  4. Expert Queries
+                </h3>
+                <p className="text-sm text-gray-200">
+                  Most complex queries: E-commerce analytics, recursive graph
+                  operations, time series analysis, multi-collection
+                  correlation, advanced data transformations - Production-ready
+                  patterns
+                </p>
+              </Link>
+            </div>
+          </div>
+
           {/* Completion Badge */}
           <div className="bg-gradient-to-r from-green-600/20 to-emerald-600/20 border-2 border-green-500 backdrop-blur-lg rounded-xl p-8 text-center">
             <h2 className="text-4xl font-bold mb-4 text-green-300">
               🎉 Complete MongoDB Learning System 🎉
             </h2>
             <p className="text-xl text-gray-200 mb-4">
-              13 Phases • 45 Comprehensive Lessons • 500+ MongoDB Features
+              14 Phases • 49 Comprehensive Lessons • 500+ MongoDB Features
             </p>
             <p className="text-lg text-gray-300">
               From fundamentals to advanced operations, security, performance,
-              complete operator reference, and interview preparation
+              complete operator reference, interview preparation, and exhaustive
+              query collection from simple to expert level
             </p>
           </div>
         </div>
