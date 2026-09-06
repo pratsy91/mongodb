@@ -680,18 +680,63 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Phase 15 */}
+          <div className="bg-white/10 backdrop-blur-lg rounded-xl p-8 hover:bg-white/15 transition-all">
+            <h2 className="text-3xl font-bold mb-4 text-rose-300">
+              Phase 15: Most Asked Interview Questions
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <Link
+                href="/phase15/modules-1-4"
+                className="bg-gradient-to-r from-rose-600 to-rose-700 p-6 rounded-lg hover:from-rose-500 hover:to-rose-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">
+                  Modules 1–4
+                </h3>
+                <p className="text-sm text-gray-200">
+                  Phase 1–4: Fundamentals, CRUD, Query Operators, Aggregation —
+                  junior to senior Q&A with answers
+                </p>
+              </Link>
+              <Link
+                href="/phase15/modules-5-8"
+                className="bg-gradient-to-r from-pink-600 to-pink-700 p-6 rounded-lg hover:from-pink-500 hover:to-pink-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">
+                  Modules 5–8
+                </h3>
+                <p className="text-sm text-gray-200">
+                  Phase 5–8: Indexes, Mongoose, Advanced Features, Replication —
+                  most-asked interview questions
+                </p>
+              </Link>
+              <Link
+                href="/phase15/modules-9-12"
+                className="bg-gradient-to-r from-orange-600 to-orange-700 p-6 rounded-lg hover:from-orange-500 hover:to-orange-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">
+                  Modules 9–12
+                </h3>
+                <p className="text-sm text-gray-200">
+                  Phase 9–12: Sharding, Security, Performance & Ops, Operators —
+                  experienced-level interview hotspots
+                </p>
+              </Link>
+            </div>
+          </div>
+
           {/* Completion Badge */}
           <div className="bg-gradient-to-r from-green-600/20 to-emerald-600/20 border-2 border-green-500 backdrop-blur-lg rounded-xl p-8 text-center">
             <h2 className="text-4xl font-bold mb-4 text-green-300">
               🎉 Complete MongoDB Learning System 🎉
             </h2>
             <p className="text-xl text-gray-200 mb-4">
-              14 Phases • 49 Comprehensive Lessons • 500+ MongoDB Features
+              15 Phases • 52+ Comprehensive Lessons • 500+ MongoDB Features
             </p>
             <p className="text-lg text-gray-300">
               From fundamentals to advanced operations, security, performance,
-              complete operator reference, interview preparation, and exhaustive
-              query collection from simple to expert level
+              operator reference, interview prep, query collections, and
+              module-wise most-asked interview Q&A
             </p>
           </div>
         </div>
