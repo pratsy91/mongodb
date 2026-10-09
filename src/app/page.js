@@ -725,18 +725,186 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Phase 16 */}
+          <div className="bg-white/10 backdrop-blur-lg rounded-xl p-8 hover:bg-white/15 transition-all">
+            <h2 className="text-3xl font-bold mb-4 text-sky-300">
+              Phase 16: Most Asked Query Interview Questions
+            </h2>
+            <p className="text-sm text-gray-300 mb-4">
+              Mongoose query problems with answers, junior to senior. Native
+              MongoDB is used only when Mongoose cannot express the operation.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <Link
+                href="/phase16/modules-1-3"
+                className="bg-gradient-to-r from-sky-600 to-sky-700 p-6 rounded-lg hover:from-sky-500 hover:to-sky-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">Modules 1–3</h3>
+                <p className="text-sm text-gray-200">
+                  Fundamentals, CRUD, and query operators — write the Mongoose
+                  query
+                </p>
+              </Link>
+              <Link
+                href="/phase16/modules-4-6"
+                className="bg-gradient-to-r from-cyan-600 to-cyan-700 p-6 rounded-lg hover:from-cyan-500 hover:to-cyan-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">Modules 4–6</h3>
+                <p className="text-sm text-gray-200">
+                  Aggregation, indexes, populate, lean, and the Mongoose query
+                  API
+                </p>
+              </Link>
+              <Link
+                href="/phase16/modules-7-9"
+                className="bg-gradient-to-r from-teal-600 to-teal-700 p-6 rounded-lg hover:from-teal-500 hover:to-teal-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">Modules 7–9</h3>
+                <p className="text-sm text-gray-200">
+                  Transactions, change streams, read/write concern, and sharded
+                  queries
+                </p>
+              </Link>
+              <Link
+                href="/phase16/modules-10-12"
+                className="bg-gradient-to-r from-emerald-600 to-emerald-700 p-6 rounded-lg hover:from-emerald-500 hover:to-emerald-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">Modules 10–12</h3>
+                <p className="text-sm text-gray-200">
+                  Secure filters, performance patterns, and the operator
+                  cookbook
+                </p>
+              </Link>
+            </div>
+          </div>
+
+          {/* Phase 17 */}
+          <div className="bg-white/10 backdrop-blur-lg rounded-xl p-8 hover:bg-white/15 transition-all">
+            <h2 className="text-3xl font-bold mb-4 text-violet-300">
+              Phase 17: Most Asked Output-Based Questions
+            </h2>
+            <p className="text-sm text-gray-300 mb-4">
+              Code is shown first. Predict the output, the stored document, or
+              the error, then reveal the answer and the fix.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <Link
+                href="/phase17/modules-1-3"
+                className="bg-gradient-to-r from-violet-600 to-violet-700 p-6 rounded-lg hover:from-violet-500 hover:to-violet-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">Modules 1–3</h3>
+                <p className="text-sm text-gray-200">
+                  Fundamentals, CRUD return values, and which documents match
+                </p>
+              </Link>
+              <Link
+                href="/phase17/modules-4-6"
+                className="bg-gradient-to-r from-fuchsia-600 to-fuchsia-700 p-6 rounded-lg hover:from-fuchsia-500 hover:to-fuchsia-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">Modules 4–6</h3>
+                <p className="text-sm text-gray-200">
+                  Aggregation results, explain plans, and wrong Mongoose code
+                </p>
+              </Link>
+              <Link
+                href="/phase17/modules-7-9"
+                className="bg-gradient-to-r from-purple-600 to-purple-700 p-6 rounded-lg hover:from-purple-500 hover:to-purple-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">Modules 7–9</h3>
+                <p className="text-sm text-gray-200">
+                  Transactions, change streams, stale reads, and shard-key
+                  errors
+                </p>
+              </Link>
+              <Link
+                href="/phase17/modules-10-12"
+                className="bg-gradient-to-r from-pink-600 to-pink-700 p-6 rounded-lg hover:from-pink-500 hover:to-pink-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">Modules 10–12</h3>
+                <p className="text-sm text-gray-200">
+                  Injection results, explain numbers, and operator output
+                </p>
+              </Link>
+            </div>
+          </div>
+
+          {/* Phase 18 */}
+          <div className="bg-white/10 backdrop-blur-lg rounded-xl p-8 hover:bg-white/15 transition-all">
+            <h2 className="text-3xl font-bold mb-4 text-amber-300">
+              Phase 18: Production Scenario Questions
+            </h2>
+            <p className="text-sm text-gray-300 mb-4">
+              Real incidents with the symptom, the cause, and the Mongoose +
+              Express fix. The last lesson is general debugging that spans
+              topics.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <Link
+                href="/phase18/modules-1-3"
+                className="bg-gradient-to-r from-amber-600 to-amber-700 p-6 rounded-lg hover:from-amber-500 hover:to-amber-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">Modules 1–3</h3>
+                <p className="text-sm text-gray-200">
+                  Connection storms, bad ids, lost updates, empty delete
+                  filters, wrong query operators
+                </p>
+              </Link>
+              <Link
+                href="/phase18/modules-4-6"
+                className="bg-gradient-to-r from-orange-600 to-orange-700 p-6 rounded-lg hover:from-orange-500 hover:to-orange-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">Modules 4–6</h3>
+                <p className="text-sm text-gray-200">
+                  Wrong aggregations, missing indexes, hooks, password leaks,
+                  and N+1 populates
+                </p>
+              </Link>
+              <Link
+                href="/phase18/modules-7-9"
+                className="bg-gradient-to-r from-yellow-600 to-yellow-700 p-6 rounded-lg hover:from-yellow-500 hover:to-yellow-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">Modules 7–9</h3>
+                <p className="text-sm text-gray-200">
+                  Broken transactions, change-stream gaps, stale reads, and
+                  shard-key failures
+                </p>
+              </Link>
+              <Link
+                href="/phase18/modules-10-12"
+                className="bg-gradient-to-r from-red-600 to-red-700 p-6 rounded-lg hover:from-red-500 hover:to-red-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">Modules 10–12</h3>
+                <p className="text-sm text-gray-200">
+                  Injection, tenant leaks, slow pages, OOM exports, and silent
+                  operator updates
+                </p>
+              </Link>
+              <Link
+                href="/phase18/general"
+                className="bg-gradient-to-r from-rose-600 to-rose-700 p-6 rounded-lg hover:from-rose-500 hover:to-rose-600 transition-all shadow-lg hover:shadow-xl"
+              >
+                <h3 className="text-xl font-semibold mb-2">
+                  General incidents
+                </h3>
+                <p className="text-sm text-gray-200">
+                  Process shutdown, retries, idempotency, deploys, and a
+                  step-by-step production debug path
+                </p>
+              </Link>
+            </div>
+          </div>
+
           {/* Completion Badge */}
           <div className="bg-gradient-to-r from-green-600/20 to-emerald-600/20 border-2 border-green-500 backdrop-blur-lg rounded-xl p-8 text-center">
             <h2 className="text-4xl font-bold mb-4 text-green-300">
               🎉 Complete MongoDB Learning System 🎉
             </h2>
             <p className="text-xl text-gray-200 mb-4">
-              15 Phases • 52+ Comprehensive Lessons • 500+ MongoDB Features
+              18 Phases • 65+ Comprehensive Lessons • 500+ MongoDB Features
             </p>
             <p className="text-lg text-gray-300">
-              From fundamentals to advanced operations, security, performance,
-              operator reference, interview prep, query collections, and
-              module-wise most-asked interview Q&A
+              From fundamentals to advanced operations, interview questions,
+              and production incidents with Mongoose and Express fixes
             </p>
           </div>
         </div>
